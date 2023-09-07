@@ -1,9 +1,9 @@
 %% Uncomment this to run the function and get wcs
 % File output_wcoherGenzel.mat contains output
 thetaband = [6 12];
-samplingRate = 2500;
-[filtHPC, IND] = removeArtefacts(HPC, 2500, [8 8], [2 0.1]);
-[filtPFC, pfcIND] = removeArtefacts(PFC, 2500, [10 10], [2 0.1]);
+samplingRate = 1250;
+[filtHPC, IND] = removeArtefacts(HPC, 1250, [8 8], [2 0.1]);
+[filtPFC, pfcIND] = removeArtefacts(PFC, 1250, [10 10], [2 0.1]);
 
 % figure
 % tiledlayout(2,2)
